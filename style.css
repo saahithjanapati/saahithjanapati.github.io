@@ -1,0 +1,112 @@
+/* Minimalist White Theme */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+header p {
+    font-size: 1rem;
+    color: #666;
+}
+
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px; /* Set consistent width for all sections */
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Section styling */
+.container {
+    max-width: 800px; /* Uniform section width */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Center the text inside the <p> */
+.center-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444; /* Matches main text color */
+}
+
+/* Center the image */
+.center-image {
+    display: block;
+    margin: 20px auto;
+    /* border-radius: 50%; Makes the image circular if square */
+    max-width: 150px; /* Restricts the image width */
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid #ddd;
+    margin-top: 2rem;
+}
+
+
+ul > li {
+    margin-bottom: 15px; /* Add spacing between the top-level items */
+}
+
+/* Remove spacing between nested list items */
+ul li ul li {
+    margin-bottom: 0; /* No extra spacing for nested list items */
+}

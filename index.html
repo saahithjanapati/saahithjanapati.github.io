@@ -1,258 +1,176 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Saahith Janapati</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saahith Janapati</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<header>
-    <h1>Saahith Janapati</h1>
-    <div class="social">
-        <a href="mailto:itzsaahith01@gmail.com" target="_blank">Email</a>
-
-        <a href="https://github.com/saahithjanapati" target="_blank">
-            GitHub
-        </a>
-
-        <a href="https://x.com/saahithjanapati" target="_blank">
-            X
-        </a>
-
-        <a href="https://www.linkedin.com/in/saahithj" target="_blank">
-            LinkedIn
-        </a>
-
-    </div>
-</header>
 <body>
+    <header>
+        <h1>Saahith Janapati</h1>
+    </header>
 
-
-
-
-    <p>I'm a student at the University of Virginia studying Computer Science and Math. I'm interested in AI and software engineering.
-    </p>
-
-
-    <h2><u>Education</u></h2>
-    <ul class="outer-list">
-
-    <li>
-        <div class="text-container">
-            <div class="left-text">
-                <h3>University of Virginia</h3>
-            </div>
-
-            <div class="right-text">
-                <i>(2021 - 2025)</i>
-            </div>
-
-        </div>
-
-    <i>B.S. in Computer Science and Mathematics</i>
-    <p class="padded-text"><strong>Relevant Coursework:</strong>
-        Deep Learning, Reinforcement Learning, Data Structures and Algorithms, Computer Systems and Organization, Software Development Essentials,
-        Discrete Mathematics, Probability, Multivariable Calculus, Linear Algebra, Differential Equations, Statistics, Optimization</p>
-    
-    </li>
-
-    <br>
-
-    <li> 
-        
-        <div class="text-container">
-            <div class="left-text">
-                <h3>Thomas Jefferson High School for Science and Technology</h3>
-            </div>
-
-            <div class="right-text">
-                <i>(2017 - 2021)</i>
-            </div>
-        </div>
-        <i>High School</i>
-
-    </li>
-    </ul>
-
-    <br>
-
-    <h2><u>Experience</u></h2>
-
-
-
-    <div class="text-container">
-
-
-
-
-        <div class="left-text">
-            <h3>Research Assistant at UVA Dependable Systems and Analytics</h3>
-        </div>
-
-        <div class="right-text">
-            <i>(September 2021 - Present)</i>
-        </div>
-    </div>
-
+    <nav>
         <ul>
-            <li>Spearheading effort to fine-tune automatic speech recognition models such as OpenAI Whisper using synthetic text and audio to transcribe Emergency Medical Service (EMS) audio</li>
-            <li>Developed multi-threaded architecture to run deep learning models offline on edge devices as part a multi-modal assistant system for EMS workers</li>
-            <li>Performed modular testing of data pipeline and wrote scripts to calculate metrics such as precision, recall, and F1-score</li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#publications">Publications</a></li>
         </ul>
-    
+    </nav>
 
 
-<!-- --------------------------------------------------------------------------------------------------- -->
+    <div class="container">
+        <section id="about">
+            <img src="profile.jpg" alt="Saahith Janapati" class="center-image">
+            <p class="center-text">Hi, I'm Saahith! I recently graduated from the University of Virginia with degrees in Computer Science and Math. I'm interested in AI and software engineering.</p>
+        </section>
 
-
-    <div class="text-container">
-        <div class="left-text">
-            <h3>Software Engineering Intern at Yext</h3>
-        </div>
-
-        <div class="right-text">
-            <i>(May 2023 - August 2023)</i>
-        </div>
+        <!-- Add other sections like Experience, Projects, etc., below -->
     </div>
 
 
-        <ul>
-            <li>Developed customizable automated backfilling script to generate artificial records of 500k+ dropped search logs</li>
-            <li>Added support in React developer SDKs to allow customers to integrate Rich Text formatting on their search pages</li>
-            <li>Made modifications to RPC endpoints powering search configuration UI to allow customers to view customization history</li>
-        </ul>
+
+    <main>
+        <section id="experience">
+            <h2>Experience</h2>
     
-
-<!-- --------------------------------------------------------------------------------------------------- -->
-
-
-<div class="text-container">
-    <div class="left-text">
-        <h3>Software Engineering Intern at Revolutionary Integration Group</h3>
-    </div>
-
-    <div class="right-text">
-        <i>(June 2022 - August 2022)</i>
-    </div>
-</div>
-
-<ul>
-    <li>Developed full-stack web application with Flask and MongoDB to serve internal resources to employees in accordance with
-    dynamic permission levels.</li>
-    <li>Designed live-updating dashboard with AJAX to display permission levels and requests of users. Built interactive UI to
-    allow management to make modifications to authentication heuristics.</li>
-</ul>
-
-
+            <!-- Research Experience Section -->
+            <section id="research-experience">
+                <h3>Research Experience</h3>
+                <ul>
+                    <li>
+                        <strong><a href="https://uvanlp.org/">UVA Information And Language Processing Lab</a></strong>  
+                        <em>Research Assistant, Advised by Dr. Yangfeng Ji</em>  
+                        <span>Charlottesville, Virginia — October 2023 - Present</span>
+                        <ul>
+                            <li>Leading project to investigate the impact of supervised fine-tuning and few-shot learning on intrinsic dimension of hidden representations of LLMs.</li>
+                            <li>Developed experimental codebase utilizing PyTorch and Huggingface Transformers library to submit large-scale jobs for LLM activation extraction, intrinsic dimension calculation, fine-tuning, and evaluation on UVA’s GPU Cluster.</li>
+                            <li>Studied information flow in LLMs using linear probes and Principal Component Analysis to detect hallucinated outputs.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong><a href="https://homa-alem.github.io/research.html">UVA Dependable Systems and Analytics Group</a></strong>  
+                        <em>Research Assistant, Advised by Dr. Homa Alemzadeh</em>  
+                        <span>Charlottesville, Virginia — September 2021 - October 2023</span>
+                        <ul>
+                            <li>Fine-tuned open-source speech recognition models such as OpenAI Whisper and Meta Wav2Vec 2.0 for speech recognition in the EMS domain.</li>
+                            <li>Integrated quantized deep learning models into multi-threaded architecture on NVIDIA Jetson Edge Device as part of an offline multimodal assistant system for EMS workers.</li>
+                            <li>Experimented with synthetic data generation pipeline using GPT-4 and audio generation models to augment existing training data with medical terminology.</li>
+                            <li>Developed a customized user interface for audio dataset curation and annotation recorded from EMS incidents.</li>
+                            <li>Performed modular testing of data pipeline and wrote scripts to calculate metrics such as precision, recall, and F1-score.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
     
+            <!-- Work Experience Section -->
+            <section id="work-experience">
+                <h3>Work Experience</h3>
+                <ul>
+                    <li>
+                        <strong>Yext</strong>  
+                        <em>Software Engineering Intern, Search Team</em>  
+                        <span>Rosslyn, Virginia — May 2023 - August 2023</span>
+                        <ul>
+                            <li>Added functionalities to internal RPC endpoints powering search configuration UI to allow customers to make modifications to search experience and view detailed customization history.</li>
+                            <li>Developed automated backfilling program to generate artificial records of 500k+ search logs dropped during maintenance and integrated the program into multi-stage Kafka Logging infrastructure.</li>
+                            <li>Added support in React developer SDKs to allow customers to integrate Rich Text Formatting on their search pages.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Modi Clear and Associates LLC</strong>  
+                        <em>Software Engineering Intern</em>  
+                        <span>Bethany, Connecticut — June 2022 - August 2022</span>
+                        <ul>
+                            <li>Developed full-stack web application with Flask and MongoDB to store and serve internal multimedia resources to employees in accordance with dynamic permission levels.</li>
+                            <li>Designed live-updating dashboard with JavaScript and AJAX to display permission levels and requests of users. Built a separate backend API using Flask to allow management to make modifications to authentication heuristics.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>MITRE</strong>  
+                        <em>Software Engineering Intern</em>  
+                        <span>McLean, Virginia — June 2021 - August 2021</span>
+                        <ul>
+                            <li>Developed multiple API endpoints for Express.js applications to serve live, location-specific data of devices connected to WiFi routers across MITRE campus from Influx Database. Used to generate employee-density heatmaps for internal mobile applications used daily by 7000+ employees for meeting-room booking across buildings.</li>
+                            <li>Performed analysis and visualization of location data using Plotly to explore building utilization across MITRE campuses.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>MITRE</strong>  
+                        <em>Software Engineering Intern</em>  
+                        <span>McLean, Virginia — June 2020 - August 2020</span>
+                        <ul>
+                            <li>Conducted unsupervised topic modeling on unlabeled internal project reports using Latent Dirichlet Allocation.</li>
+                            <li>Prototyped multiple ML models using traditional and deep learning techniques to categorize project reports from text.</li>
+                            <li>Achieved best validation accuracy of 92% using TF-IDF vectorization + Decision Trees.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>MITRE</strong>  
+                        <em>Software Engineering Intern</em>  
+                        <span>McLean, Virginia — June 2019 - August 2019</span>
+                        <ul>
+                            <li>Improved software tooling to run large-scale Reinforcement Learning agent experiments with hyperparameter tuning using Google DeepMind’s PySc2 Library on MITRE’s internal GPU cluster.</li>
+                            <li>Developed evaluation scripts and constrained tasks in StarCraft II game environment to benchmark agent performance.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+        </section>
 
-    <!----------------------------------------------------------------------------------------------------- -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <strong><a href="http://www.uvacourseexplorer.com">UVA Course Explorer</a></strong>
+                    <p>Semantic search engine and live-updating catalog for UVA courses using OpenAI’s text embedding API. Calculates cosine similarity between user query and course description embeddings to return the most relevant courses.</p>
+                </li>
+                <li>
+                    <strong><a href="https://devpost.com/software/raven-tg9ksp">Raven</a></strong>
+                    <p>Voice (Whisper + GPT-4) and gesture (GPT-4V) interfaces to provide accessible control to a DJI Tello Drone.</p>
+                </li>
+                <li>
+                    <strong><a href="https://devpost.com/software/twipa">Twitter Profile Analyzer</a></strong>
+                    <p>Web-dashboard tool to analyze tweets of a specific account. Performs sentiment analysis and clustering (Principal Component Analysis + K-Means) on tweets vectorized by the TF-IDF algorithm and generates interactive graphs for the user.</p>
+                </li>
+            </ul>
+        </section>
 
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>
+                    <strong>Janapati, S., Ji, Y.</strong> (2024). <a href="https://arxiv.org/abs/2412.06245">A Comparative Analysis of Learning Paradigms in LLMs using Intrinsic Dimension.</a>
+                    <em>Submitted to NAACL 2025 (Under Review).</em>
+                </li>
+                <li>
+                    Weerasinghe, K., <strong>Janapati, S.</strong>, Ge, X., Kim, S., Iyer, S., Stankovic, J. A., Alemzadeh, H.</strong> (2024).
+                    <a href="https://arxiv.org/abs/2403.06734">Real-Time Multimodal Cognitive Assistant for Emergency Medical Services.</a><em>9th ACM/IEEE Conference on Internet of Things Design and Implementation.</em>
+                </li>
+                <!-- <li>
+                    <strong>Janapati, S., Alemzadeh, H.</strong> (2023). EMS-Whisper: A Speech Recognition Module for the Emergency Medical Services. <em>Poster Presentation at SRC Undergraduate Research Symposium.</em>
+                </li> -->
+            </ul>
+        </section>
+    </main>
 
-    <div class="text-container">
-        <div class="left-text">
-            <h3>Software Engineering Intern at MITRE</h3>
-        </div>
-    
-        <div class="right-text">
-            <i>(June 2021 - August 2021)</i>
-        </div>
-    </div>
+    <!-- <footer>
+        <p>&copy; 2024 Saahith Janapati. All rights reserved.</p>
+    </footer> -->
 
-        <ul>
-            <li>Developed multiple API endpoints for Express.js application to serve live, location-specific data of devices connected to WiFi routers across MITRE campus from Influx Database. Used to generate employee-density heatmaps for internal mobile application used daily by 7000+ employees.</li>
-            <li>Performed analysis and visualization of location data to explore building utilization across MITRE campuses</li>
-        </ul>
-
-    
-    <!----------------------------------------------------------------------------------------------------- -->
-
-    <div class="text-container">
-        <div class="left-text">
-            <h3>Software Engineering Intern at MITRE</h3>
-        </div>
-    
-        <div class="right-text">
-            <i>(June 2020 - August 2020)</i>
-        </div>
-    </div>
-
-        <ul>
-            <li>Conducted unsupervised topic modelling on unlabeled internal project reports using Latent Dirichlet allocation</li>
-            <li>Prototyped multiple ML models using traditional and deep learning techniques to categorize project reports from text.</li>
-            <li>Achieved best validation accuracy of 92% using TF-IDF vectorization + Decision Trees</li>
-        </ul>
-
-
-    <!----------------------------------------------------------------------------------------------------- -->
-
-    <div class="text-container">
-        <div class="left-text">
-            <h3>Software Engineering Intern at MITRE</h3>
-        </div>
-    
-        <div class="right-text">
-            <i>(June 2019 - August 2019)</i>
-        </div>
-    </div>
-
-    <ul>
-        <li>Created automated scripts to automate training experiments of Reinforcement Learning algorithms in StarCraft II on MITRE's GPU cluster</li>
-       
-    </ul>
-
-
-
-    <br>
-
-    <h2><u>Projects</u></h2>
-    <!-- <ul> -->
-        <p><strong><a href="https://github.com/UVA-Course-Explorer">UVA Course Explorer</a></strong>: Semantic search engine and course catalog for UVA Courses using OpenAI’s text embedding API. Calculates cosine
-            similarity between user query and course description embeddings to return most relevant courses. Built with Python, React, and FastAPI. Try it out at <a href="https://www.uvacourseexplorer.com">uvacourseexplorer.com</a>.</p>
-
-        <p><strong><a href="https://github.com/saahithjanapati/vae-visualizer">VAE Visualizer</a></strong>: Visualization tool to understand the inner workings of variational autoencoders. Allows
-            user to perform dimensionality reduction on 10-dimensional latent space using the t-SNE algorithm and create animations
-            interpolating between encoding vectors. Built with Python, PyTorch, scikit-learn, and Plotly.</p>
-
-        <p><strong><a href="https://github.com/saahithjanapati/TwiPA">Twitter Profile Analyzer</a></strong>: Web-dashboard tool to analyze tweets of a specific account. Performs sentiment analysis and
-            clustering (Principal Component Analysis + K Means) on tweets vectorized by the TF-IDF algorithm and generates interactive
-            graphs for the user. Built with Python, Plotly, and scikit-learn.</p>
-
-        <p><strong><a href="https://github.com/srikarg89/Battlecode2022">MIT BattleCode Bot</a></strong>: AI bot written in Java to participate in MIT’s annual real-time strategy BattleCode competition.
-            Developed algorithms for resource acquisition, attacking, and pathfinding. Participated in 2022 and 2023, achieving best standing of 27th place internationally.</p>
-
-        <p><strong><a href="https://github.com/saahithjanapati/musician-connections">Musician Connections</a></strong>: Full-stack web application to explore collaborations in the music industry. Populates a graph database
-            with over 45,000 tracks to get all collaborations of artists and runs graph algorithms to find shortest collaboration path between
-            two artists. Built with Python, JavaScript, Flask, and Neo4j</p>
-        
-
-        <p><strong><a href="https://github.com/saahithjanapati/historical-news-scraper">Historical News Scraper</a></strong>: Automated Selenium Script to scrape news articles about a certain topic from Google News given a time range</p>
-
-        <p><strong><a href="https://github.com/saahithjanapati/uvacollab-scraper">UVA Collab Scraper</a></strong>: Automated Selenium Script to scrape class materials from University of Virginia's content management system</p>
-
-        <p><strong><a href="https://github.com/saahithjanapati/mediapipe-GUI">Google MediaPipe GUI</a></strong>: PyQT5 GUI to run deep learning models for hand, face, and pose detection on webcam video feeds</p>
-
-
-
-
-
-        <!-- <li>Twitter Profile Analyzer</li>
-        <li>MIT BattleCode Bot</li>
-        <li>Musician Connections</li>
-        <li>Historical News Scraper</li>
-        <li>UVA Collab Scraper</li>
-        <li>Google MediaPipe GUI</li> -->
-    <!-- </ul> -->
-
-
-    <br>
-    <h2><u>Publications</u></h2>
-    <li>Coming Soon :)</li>
-
-
-
-    <!-- <h3><a href>Twitter</a></h3> -->
-
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+    </script>
 </body>
-
-
 </html>
