@@ -110,3 +110,10 @@ ul > li {
 ul li ul li {
     margin-bottom: 0; /* No extra spacing for nested list items */
 }
+
+/* Right-aligned date styling */
+.date-right {
+    float: right;
+    font-size: 0.9rem;
+    color: #666;
+}
